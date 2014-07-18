@@ -462,6 +462,22 @@ def WriteFullOTAPackage(input_zip, output_zip):
     script.RunBackup("backup")
     script.Unmount("/system")
 
+  script.Print("############################################");
+  script.Print("#          _______  _                      #");
+  script.Print("#         |__   __|| |                     #");
+  script.Print("#            | |   | |_     ___            #");
+  script.Print("#            | |   | '_ \  / _ \           #");
+  script.Print("#            | |   | | | ||  __/           #");
+  script.Print("#            |_|   |_| |_| \___|           #");
+  script.Print("#   _____        _      _                  #");
+  script.Print("#  / ____|      | |    (_)                 #");
+  script.Print("# | (___    ___ | |__   _  ___  _ __ ___   #");
+  script.Print("#  \___ \  / __|| '_ \ | |/ __|| '_ ` _ \  #");
+  script.Print("#  ____) || (__ | | | || |\__ \| | | | | | #");
+  script.Print("# |_____/  \___||_| |_||_||___/|_| |_| |_| #");
+  script.Print("#                                          #");
+  script.Print("############################################"); 
+
   script.ShowProgress(0.5, 0)
 
   if OPTIONS.wipe_user_data:
